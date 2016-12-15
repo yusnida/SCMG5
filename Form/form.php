@@ -107,6 +107,8 @@ echo "<br>";
 echo $comment;
 echo "<br>";
 echo $gender;
+echo "<br>";
+echo $ic;
 ?>
 
 </body>
