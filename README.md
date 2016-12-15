@@ -6,3 +6,4 @@ Github is used as a tool to distribute the version control and source code manag
 
 Based on this mini project, we start by uploading the source code into the repository. Then, we compile by merging the source code continuing by test the build on other web browser. Next, we will make some changes in the code and release the code. Lastly, we will deploy into the Cloud Post.
 
+Hi sir
