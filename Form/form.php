@@ -23,6 +23,16 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
   }
   
+  if (empty($_POST["ic number"])) {
+    $icErr = "IC Number is required";
+  } else {
+    $ic = test_input($_POST["ic"]);
+    // check if IC Number only contains numbers
+    if (!preg_match("/^[0-9]*$/",$ic)) {
+      $icErr = "Only numbers allowed"; 
+    }
+  }
+  
   if (empty($_POST["email"])) {
     $emailErr = "Email is required";
   } else {
